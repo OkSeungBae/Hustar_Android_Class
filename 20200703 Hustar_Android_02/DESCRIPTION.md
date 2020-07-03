@@ -24,4 +24,4 @@ btnLeft.setOnClickListener(new View.OnClickListener() {
 
 *image
 
-![Alt text](.\PracticeImage\20200703 Hustar-Android_02.png)
+<img src ="/PracticeImage/20200703 Hustar-Android_02.PNG" width="450px" height="500px"></img>
