@@ -81,3 +81,7 @@ detector = new GestureDetector(this, new GestureDetector.OnGestureListener() {
 
         });
 ```
+
+*image
+
+<img src ="/PracticeImage/20200703 SampleEvent.PNG" width="300px" height="500px"></img>

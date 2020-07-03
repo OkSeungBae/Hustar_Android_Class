@@ -1,7 +1,5 @@
-Hustar_Android_Class 20200703
+Hustar_Android_Class 20200702
 ====================
-
-# Toast.makeText 실습
 
 *MainActivity.java
 ```

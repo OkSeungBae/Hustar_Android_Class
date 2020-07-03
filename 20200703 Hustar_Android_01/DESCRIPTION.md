@@ -1,9 +1,9 @@
 Hustar_Android_Class 20200703
 ====================
 
-#개인 과제
+# 개인 과제
 
-##어플리케이션 위에 Touch시 imageView가 따라오도록 만들기
+## 어플리케이션 위에 Touch시 imageView가 따라오도록 만들기
 
 
 *MainActivity.java
@@ -25,4 +25,6 @@ container.setOnTouchListener(new View.OnTouchListener() {
         });
 ```
 
+*image
 
+<img src ="/PracticeImage/20200703 Hustar-Android_01.PNG" width="300px" height="500px"></img>
