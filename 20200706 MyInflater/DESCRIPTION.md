@@ -39,13 +39,14 @@ Hustar_Android_Class 20200706
     }
 ```
 
-*중요부분
+* 중요부분
 ```
 LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 inflater.inflate(R.layout.sub, container, true);
 ```
 
 6. 실습 이미지
+
 <img src ="/PracticeImage/20200706 inflater2.PNG" width="300px" height="500px"></img>
 
 <img src ="/PracticeImage/20200706 inflater3.PNG" width="300px" height="500px"></img>
@@ -53,7 +54,7 @@ inflater.inflate(R.layout.sub, container, true);
 7.  2번째 실습 
 # 하나의 화면에 infalter를 사용해서 두개의 xml을 번갈아서 사용하기
 
-*중요코드
+* 중요코드
 ```
 public void onClick(View view) {
                 //container에 포함된 모든 View들을 제거
@@ -76,7 +77,7 @@ btn2.setOnClickListener(new View.OnClickListener() {
 }
 ```
 
-*container 즉, layout에는 xml을 하나만 집어 넣을 수 있다. 따라서 다른 xml을 넣을려면 기존의 View를 모두 삭제하여야 한다
+* container 즉, layout에는 xml을 하나만 집어 넣을 수 있다. 따라서 다른 xml을 넣을려면 기존의 View를 모두 삭제하여야 한다
 ```
 contiainer.removeAllViews();
 ```
