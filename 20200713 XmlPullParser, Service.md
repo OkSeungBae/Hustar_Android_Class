@@ -9,6 +9,8 @@ Hustar_Android_Class 20200713
 
 1-1. res/raw/test.xml
 raw디렉토리를 만들고 test.xml파일을 만든다
+* 주의사항
+raw디렉토리를 생성할 시 res에서 디렉토리 생성하고 Resource type을 raw로 한다.
 ```
 <?xml version="1.0" encoding="utf-8"?><!--역대인물 27035명-->
 <인명정보>
